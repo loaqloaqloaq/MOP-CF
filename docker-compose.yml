@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:  
+  client:
+    container_name: client
+    build: ./client         
+    ports:
+      - 8000:8000
+    environment:
+      - PORT=8000
+    working_dir: /usr/src/app
+    entrypoint: "npm run start"
+    networks:
+      - shared  
+networks:
+  shared:
+    external: true
