@@ -4,6 +4,7 @@
 - NuxtJS 2 というフレームワークを使用しました。
 - 開発言語はJavaScript
 - URL：[https://cf.miconproject.com/](https://cf.miconproject.com/)
+- 中国語しかありません。
 
 ## 独自に実装した要素・PR ポイント：
 - PC版とモバイル版は同じHTMLで、CSSだげで変換を行います。
